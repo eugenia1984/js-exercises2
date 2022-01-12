@@ -1,0 +1,61 @@
+/**********
+RESET
+*********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+ --primary-color: #09bcc6;
+ --secondary-color: #bfd96a;
+ --third-color: #006d86;
+ --text-white: #fff;
+}
+
+.header,
+.footer {
+  padding: 1rem 0.25rem;
+}
+
+/***********
+    HEADER
+***********/
+.header {
+  background-color: var(--secondary-color);
+}
+
+.header h1 {
+  color: var(--third-color);
+  text-align: center;
+}
+
+/***********
+    MAIN
+**********/
+
+/**********
+    FOOTER
+**********/
+.footer {
+  background-color: var(--secondary-color);
+}
+
+.footer p {
+  color: var(--third-color);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+.footer a:hover {
+  color: var(--third-color);
+} 
