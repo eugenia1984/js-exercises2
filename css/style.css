@@ -36,38 +36,49 @@ RESET
 
 .header h1 {
   color: var(--third-color);
+  padding: 0.5rem 0.25rem;
   text-align: center;
 }
 
 /***********
     MAIN
 **********/
-.hero-image {
-  width: 100%;
-  height: 100vh;
+/*BG GRADIENT*/
+.bg-gradient {
   background: linear-gradient(var(--primary-color), var(--third-color));
 }
 
-.hero-image p {
+.bg-gradient p {
   color: var(--text-white);
   font-size: 1.5rem;
-  line-height: 1.8; 
-  padding: 40% 10%;
+  line-height: 1.8;
+  padding: 2rem 1.5rem;
   text-align: center;
-  
 }
-
-@media (min-width: 768px) {
-  .hero-image p {
-    padding: 35% 10%;
+@media (min-width: 425px) and (max-width: 767px) { 
+  .bg-gradient P {
+    padding: 2.5rem 3rem;
   }
 }
 
-@media (min-width: 1024px) {
-  .hero-image p {
-    padding: 20% 10%;
+@media (min-width: 768px) { 
+  .bg-gradient p {
+    padding: 3rem 4rem;
   }
 }
+
+
+/*CARDS*/
+.cards {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/turned-gray-laptop-computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 /**********
     FOOTER
 **********/
@@ -77,19 +88,17 @@ RESET
 
 .footer p {
   color: var(--third-color);
+  text-align: center;
 }
 
-.footer-contact a{
-  padding: 0.50rem;
-}
 /***Links**/
-.hero-image a,
+.bg-gradient a,
 .footer a {
   text-decoration: none;
   color: var(--text-white);
 }
 
-.hero-image a:hover,
+.bg-gradient a:hover,
 .footer a:hover {
   color: var(--third-color);
 } 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Social Network Post Box </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAweome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--My CSS-->
+    <link rel="stylesheet" href="./css/social_network_post_box.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./assets/icons/Logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <!--------------SECTION POST----------------->
+        <section class="post">
+          <!----header---->
+          <header>Create Post</header>
+          <!---form--->
+          <form action="#">
+            <div class="content">
+              <img src="./assets/icons/Logo.png" alt="logo CN">
+              <div class="details">
+                <p>Code Now</p>
+                <div class="privacy">
+                  <i class="fas fa-user-friends"></i>
+                  <span>Friends</span>
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+            <!--textarea-->
+            <textarea placeholder="What's on your mind, Code Now?" spellcheck="false" required></textarea>
+            <div class="theme-emoji">
+              <img src="./assets/icons/theme.svg" alt="theme">
+              <img src="./assets/icons/smile.svg" alt="smile">
+            </div>
+            <!--options-->
+            <div class="options">
+              <p>Add to Your Post</p>
+              <ul class="list">
+                <li><img src="./assets/icons/gallery.svg" alt="gallery"></li>
+                <li><img src="./assets/icons/tag.svg" alt="gallery"></li>
+                <li><img src="./assets/icons/emoji.svg" alt="gallery"></li>
+                <li><img src="./assets/icons/mic.svg" alt="gallery"></li>
+                <li><img src="./assets/icons/more.svg" alt="gallery"></li>
+              </ul>
+            </div>
+            <!--button-->
+            <button>Post</button>
+          </form>
+        </section>
+        <!------------SECTION AUDIENCE------------>
+        <section class="audience">
+          <!--header-->
+          <header>
+            <div class="arrow-back"><i class="fas fa-arrow-left"></i></div>
+            <p>Select Audience</p>
+          </header>
+          <!--content-->
+          <div class="content">
+            <p>Who can see your post?</p>
+            <span>Your post will show up in News Feed, on your profile and in search results.</span>
+          </div>
+          <!--list-->
+          <ul class="list">
+            <!--public-->
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-globe-asia"></i></div>
+                <div class="details">
+                  <p>Public</p>
+                  <span>Anyone on or off Facebook</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <!--friends-->
+            <li class="active">
+              <div class="column">
+                <div class="icon"><i class="fas fa-user-friends"></i></div>
+                <div class="details">
+                  <p>Friends</p>
+                  <span>Your friends on Facebook</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <!--specific-->
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-user"></i></div>
+                <div class="details">
+                  <p>Specific</p>
+                  <span>Only show to some friends</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <!--only me-->
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-lock"></i></div>
+                <div class="details">
+                  <p>Only me</p>
+                  <span>Only you can see your post</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+            <!--custom-->
+            <li>
+              <div class="column">
+                <div class="icon"><i class="fas fa-cog"></i></div>
+                <div class="details">
+                  <p>Custom</p>
+                  <span>Include and exclude friends</span>
+                </div>
+              </div>
+              <div class="radio"></div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <script src="./js/social_network_post_box.js"></script>    
+  </body>
+</html>
