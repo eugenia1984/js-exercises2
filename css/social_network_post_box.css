@@ -47,12 +47,12 @@ body {
 .container.active { height: 590px; }
 
 .container .wrapper {
-  width: 1000px;
+  width: 960px;
   display: flex;
 }
 
 .container .wrapper section {
-  width: 500px;
+  width: 490px;
   background: var(--white);
 }
 
@@ -84,7 +84,7 @@ body {
   max-width: 30px;
 }
 
-.post form .content .details { margin: -30px 0 0 38px; }
+.post form .content .details { margin: -45px 0 0 38px; }
 
 form .content .details p {
   font-size: 17px;
@@ -261,6 +261,11 @@ form textarea:valid ~ button:hover { background: var(--blue); }
 .audience .list li.active, 
 .audience .list li.active:hover {  background: #E5F1FF; }
 
+
+.audience .list li.active .radio::before { background: var( --dark-color); }
+
+div.container.active .audience .list li:hover .radio { border: 3px solid var( --dark-color); }
+
 .audience .list li:hover { background: #f0f1f4; }
 
 .audience .list li .column .icon {
@@ -305,3 +310,25 @@ form textarea:valid ~ button:hover { background: var(--blue); }
 }
 
 .list li.active .radio::before { background: var( --dark-color); }
+
+/*responsive for mobile phones*/
+@media (max-width: 576px ) {
+  .container { width: 380px; }
+
+  .container .wrapper { width: 760px; }
+
+  .container .wrapper section { width: 500px; }
+
+  .audience header {
+    padding: 17px 70px;
+    text-align: left;
+  }  
+  .audience .content {
+    width: 360px;
+    margin: 20px 10px;
+  }
+
+  .audience .list {
+    margin: 0 0 0 ;
+  }
+}
