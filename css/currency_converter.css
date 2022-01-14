@@ -9,13 +9,29 @@
   font-family: 'Poppins', sans-serif;
 }
 
+*::after, *::before { box-sizing: inherit; }
+
+/** vriables**/
 :root {
   --blue: #675AFE;
+  --blue1: #606dfe;
+  --blue2: #607dfc;
+  --blue3: #668bf7;
+  --blue4: #7198f1;
+  --blue5: #54a7fa;
+  --blue6: #33b6ff;
+  --blue7: #00c3ff;
+  --blue8: #00d6fd;
+  --blue9: #00e6e7;
+  --green1: #00f3c0;
+  --green2:  #5ffb8e;
   --light-blue: #4534fe;
   --white: #fff;
   --gray: #999;
   --dark-gray: #888;
 }
+
+html { background:  var(--blue); }
 
 body {
   display: flex;
@@ -23,7 +39,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background: var(--blue);
+  background-image: linear-gradient(to top, var(--blue), var(--blue1), var(----blue2), var(--blue3), var(--blue4), var(--blue5), var(--blue6), var(--blue7), var(--blue8), var(--blue9), var(--green1), var(--green2));
 }
 
 ::selection {
@@ -31,10 +47,10 @@ body {
   background: var(--blue);
 }
 .wrapper {
-  width: 370px;
-  padding: 30px;
+  width: 360px;
+  padding: 25px;
   border-radius: 7px;
-  background: #fff;
+  background: var(--white);
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
 .wrapper header {
@@ -124,6 +140,4 @@ form button {
   transition: 0.3s ease;
 }
 
-form button:hover{
-  background: var(--light-blue);
-}
+form button:hover { background: var(--light-blue); }

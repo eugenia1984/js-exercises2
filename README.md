@@ -5,6 +5,13 @@ ENGLISH
 I create a one single page with some JavaScript exercises I did in order to practice.
 
 
+## What are you going to see ?
+
+- [A social network post box](https://eugenia1984.github.io/js-exercises2/social_network_post_box.html)
+
+- [A currency converter](https://eugenia1984.github.io/js-exercises2/currency_converter.html)
+
+
 ---
 
 ## Tech Stack 🛠️
@@ -38,6 +45,14 @@ SPANISH
 # :book: JS ejercicios
 
 Cree una página para tener las prácticas que realicé con JavaScript.
+
+
+##  Qué vas a ver?
+
+- [Un recuadro de posteo de una red social](https://eugenia1984.github.io/js-exercises2/social_network_post_box.html)
+
+- [Un convertidor de moneda](https://eugenia1984.github.io/js-exercises2/currency_converter.html)
+
 
 ## Stack teconológico 🛠️
 
