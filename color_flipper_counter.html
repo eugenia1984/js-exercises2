@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Color flipper || Hex</title>
+  <title>Color flipper </title>
    <!-- ETIQUETAS META PARA SEO-->
    <meta name="description"
    content="This is one of my practices using HTML5, CSS3 and JavaScript. Watching a YouTube video of FRee Code Camp to create a button the flip the background color.">
@@ -13,28 +13,36 @@
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://eugenia1984.github.io/js-exercises2/color_flipper.html">
   <!-- My CSS-->
-  <link rel="stylesheet" href="./css/color_flipper.css">
+  <link rel="stylesheet" href="./css/color_flipper_counter.css">
 </head>
 <body>
   <!-- HEADER -->
   <header class="header">
     <nav>
       <div class="nav-center">
-        <h1>Let's try de <strong>color flipper</strong></h1>
+        <h1>Color flipper & Counter</h1>
         <ul class="nav-link">
-          <li> <a href="color_flipper.html">Simple</a>  </li>
-          <li> <a href="hex.html">Hex</a> </li>
+          <li> <a href="#simple">Simple</a>  </li>
+          <li> <a href="#hex">Hex</a> </li>
+          <li><a href="#counter">Counter</a></li>
         </ul>
       </div>
     </nav>
   </header>
   <!-- MAIN -->
   <main>
-    <div class="container">
-      <h2>Backgound color: <span class="color">#f1f5f8</span></h2>
+    <div class="container" id="simple">
+      <h2>Backgound color Simple: <span class="color">#f1f5f8</span></h2>
       <button class="btn btn-hero" id="bnt"> Click me</button>
     </div>
+    <div class="container" id="hex">
+      <h2>Backgound color Hex: <span class="color">#f1f5f8</span></h2>
+      <button class="btn btn-hero" id="bnt"> Click me</button>
+    </div>
+    <div class="container" id="counter">
+      <h2>Counter</h2>
+    </div>
   </main>
-  <script src="./js/color_flipper.js"></script>
+  <script src="./js/color_flipper_counter.js"></script>
 </body>
 </html>

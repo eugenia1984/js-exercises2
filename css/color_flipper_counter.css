@@ -154,6 +154,7 @@ nav {
   align-items: center;
   box-shadow: var(--dark-shadow);
 }
+
 @media screen and (max-width: 768px) {
   nav {
     height: 7.5rem;
@@ -203,6 +204,8 @@ main {
 
 .container {
   text-align: center;
+  border-bottom: 1px solid var(--clr-primary-1);
+  padding-bottom: 1.5rem;
 }
 
 .container h2 {
