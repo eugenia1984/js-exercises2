@@ -11,6 +11,7 @@ I create a one single page with some JavaScript exercises I did in order to prac
 
 - [A currency converter](https://eugenia1984.github.io/js-exercises2/currency_converter.html)
 
+- [A color flipper](https://eugenia1984.github.io/color_flipper.html)
 
 ---
 
@@ -52,6 +53,8 @@ Cree una página para tener las prácticas que realicé con JavaScript.
 - [Un recuadro de posteo de una red social](https://eugenia1984.github.io/js-exercises2/social_network_post_box.html)
 
 - [Un convertidor de moneda](https://eugenia1984.github.io/js-exercises2/currency_converter.html)
+
+- [Un boton que me cambia el color de fondo](https://eugenia1984.github.io/color_flipper.html)
 
 
 ## Stack teconológico 🛠️
