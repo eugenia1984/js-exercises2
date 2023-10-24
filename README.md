@@ -35,7 +35,7 @@ I create a one single page with some JavaScript exercises I did in order to prac
 
 ## Notes
 
-I appreciate your interest in this repository ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me on [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+I appreciate your interest in this repository ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me on [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
 
@@ -77,5 +77,5 @@ Cree una página para tener las prácticas que realicé con JavaScript.
 
 ## Notas
 
-Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
